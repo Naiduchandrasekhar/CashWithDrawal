@@ -1,0 +1,22 @@
+/* Write your CSS here */
+
+.button {
+  width: 120px;
+  margin: 5px;
+  height: 35px;
+  cursor: pointer;
+  outline: none;
+  background-color: #585076;
+  color: #d4d2db;
+  font-size: 22px;
+}
+
+.listItems {
+  list-style-type: none;
+}
+
+@media screen and (max-width: 768px) {
+  .button {
+    width: 90px;
+  }
+}
